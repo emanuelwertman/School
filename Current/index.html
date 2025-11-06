@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberSecurity</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-icon">🛡️</span>
+                <span class="logo-text">CyberSecurity</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#cia-triad">CIA Triad</a></li>
+                <li><a href="#data-states">Data States</a></li>
+                <li><a href="#authentication">Authentication</a></li>
+                <li><a href="#passwords">Passwords</a></li>
+                <li><a href="#threats">Threats</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Secure Your Digital Future</h1>
+            <p class="hero-subtitle">Learn the basics of cybersecurity and protect yourself online</p>
+            <button class="cta-button">Start Learning</button>
+        </div>
+        <div class="hero-visual">
+            <div class="floating-card card-1"></div>
+            <div class="floating-card card-2"></div>
+            <div class="floating-card card-3"></div>
+        </div>
+    </section>
+
+    <!-- CIA Triad Section -->
+    <section id="cia-triad" class="section">
+        <div class="container">
+            <h2 class="section-title">The CIA Triad</h2>
+            <p class="section-subtitle">Core ideas behind information security</p>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon">🔒</div>
+                    <h3>Confidentiality</h3>
+                    <p>Keeps private data safe from unauthorized access using encryption and access controls.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">✓</div>
+                    <h3>Integrity</h3>
+                    <p>Makes sure information stays accurate and unchanged using hashing or version control.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🌐</div>
+                    <h3>Availability</h3>
+                    <p>Ensures data and systems are ready when needed with backups and reliable uptime.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Data States Section -->
+    <section id="data-states" class="section alt-bg">
+        <div class="container">
+            <h2 class="section-title">Three States of Data</h2>
+            <p class="section-subtitle">How data exists and moves</p>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon">💾</div>
+                    <h3>Data at Rest</h3>
+                    <p>Stored data, like on a drive or server, should be protected with encryption and access limits.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">📡</div>
+                    <h3>Data in Transit</h3>
+                    <p>Data moving across networks should be encrypted with tools like TLS or VPNs.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">⚙️</div>
+                    <h3>Data in Use</h3>
+                    <p>Data being processed or viewed should be secured through endpoint protection and permissions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Authentication Section -->
+    <section id="authentication" class="section">
+        <div class="container">
+            <h2 class="section-title">Types of Authentication</h2>
+            <p class="section-subtitle">Ways to confirm identity</p>
+            <div class="cards-grid cards-grid-4">
+                <div class="card">
+                    <div class="card-icon">🔑</div>
+                    <h3>Something You Know</h3>
+                    <p>Like a password, PIN, or security question you remember.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">📱</div>
+                    <h3>Something You Have</h3>
+                    <p>A device or token you own, like a phone or smart card.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">👤</div>
+                    <h3>Something You Are</h3>
+                    <p>Biometrics such as your fingerprint or face scan.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🔐</div>
+                    <h3>Multi-Factor (MFA)</h3>
+                    <p>Combines two or more methods for stronger security.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Passwords Section -->
+    <section id="passwords" class="section alt-bg">
+        <div class="container">
+            <h2 class="section-title">Password Security</h2>
+            <p class="section-subtitle">Tips to keep passwords safe</p>
+            <div class="content-box">
+                <div class="info-panels">
+                    <div class="info-panel">
+                        <h4>Best Practices</h4>
+                        <p>Use long, unique passwords or passphrases. Store them in a password manager and enable MFA.</p>
+                    </div>
+                    <div class="info-panel">
+                        <h4>Common Mistakes</h4>
+                        <p>Reusing or sharing passwords, using personal info, or storing them insecurely makes you vulnerable.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Threats Section -->
+    <section id="threats" class="section">
+        <div class="container">
+            <h2 class="section-title">Cybersecurity Threats</h2>
+            <p class="section-subtitle">Common attacks to watch for</p>
+            
+            <div class="threat-categories">
+                <div class="threat-category">
+                    <h3 class="category-title">🎣 Phishing</h3>
+                    <div class="card">
+                        <p>Scammers pose as trusted sources to trick you into giving personal info or downloading malware.</p>
+                    </div>
+                </div>
+                
+                <div class="threat-category">
+                    <h3 class="category-title">👥 Social Engineering</h3>
+                    <div class="card">
+                        <p>Attackers manipulate people using tricks like impersonation or baiting to gain access or steal data.</p>
+                    </div>
+                </div>
+                
+                <div class="threat-category">
+                    <h3 class="category-title">⚠️ Other Threats</h3>
+                    <div class="cards-grid cards-grid-4">
+                        <div class="card small-card">
+                            <h4>Malware</h4>
+                            <p>Software that damages or steals data, like viruses or trojans.</p>
+                        </div>
+                        <div class="card small-card">
+                            <h4>Ransomware</h4>
+                            <p>Locks or encrypts your files until a ransom is paid.</p>
+                        </div>
+                        <div class="card small-card">
+                            <h4>DDoS</h4>
+                            <p>Overloads a system with traffic to make it crash or go offline.</p>
+                        </div>
+                        <div class="card small-card">
+                            <h4>Insider Threats</h4>
+                            <p>Security issues caused by employees or partners misusing access.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p><strong>Sources:</strong></p>
+        <ul>
+            <li><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-12r1.pdf" target="_blank">NIST SP 800-12 Rev. 1 — “An Introduction to Information Security”</a></li>
+            <li><a href="https://informationsecurity.wustl.edu/guidance/confidentiality-integrity-and-availability-the-cia-triad/" target="_blank">Washington University — “Confidentiality, Integrity, and Availability: The CIA Triad”</a></li>
+            <li><a href="">Cyber.org Slides</a></li>
+            <li><a href="">AI was used for styling and reactivity</a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
